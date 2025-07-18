@@ -113,6 +113,7 @@ body {
 .content {
     text-align: center;
     padding-top: 90px;
+    color: #fff;
 }
 
 .content>h2 {
@@ -166,19 +167,18 @@ body {
     text-align: center;
 }
 
-.franchise {
+.restaurant-franchise {
     width: 100%;
     
     background-color: rgb(15 15 15);
 }
 
-.content {
-    text-align: center;
-    padding-top: 90px;
+.restaurant-franchise > .content > h2 {
     color: #fff;
+    font-size: 48px;
 }
 
-.c .one {
+.content .one {
     font-family: "Futurak";
 }
 
@@ -188,7 +188,7 @@ body {
 }
 .address2-container{
     width: 90%;
-    margin: 0px 0px 80px 200px;
+    margin: 0px 0px 40px 200px;
 }
 .address {
     padding: 30px 110px ;
@@ -249,10 +249,17 @@ body {
 .address2-container > .address {
     padding:  40px;
     width: 40%;
-    height: 500px;
+    height: 400px;
 }
 .address2-container > .address-image{
     
     position: relative;
     top: 30px;
+}
+.address > .address-btn > button > i{
+    background-color: #fff;
+    color: #ed1c24;
+    padding: 8px;
+    border-radius: 100%;
+
 }
