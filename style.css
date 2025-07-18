@@ -2,149 +2,242 @@
     font-family: "Futurak";
     src: url(fonts/futurak.ttf);
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
-    
+
 
 }
-.logo > img {
+
+.logo>img {
     width: 165px;
 }
-.header{
+
+.header {
     box-sizing: border-box;
     width: 100%;
     height: 93px;
     background-color: #000;
     padding: 10px 130px;
 }
-.menu > ul >li{
+
+.menu>ul>li {
     display: inline-block;
     color: #fff;
     margin-right: 20px;
 }
-.logo , .right-side {
+
+.logo,
+.right-side {
     display: inline-block;
 }
-.btns button{
-    padding: 14px 18.5px;       
+
+.btns button {
+    padding: 14px 18.5px;
     border-radius: 35px;
 
 }
-.btn1{
+
+.btn1 {
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
 }
-.btn2{
+
+.btn2 {
     background-color: #ed1c24;
     color: #fff;
     border: 1px solid #fff;
-    padding: 8px 13px !important; 
+    padding: 8px 13px !important;
 }
-.btns{
-    display: inline-block;
-}
-.menu{
+
+.btns {
     display: inline-block;
 }
 
-.logo{
+.menu {
+    display: inline-block;
+}
+
+.logo {
     vertical-align: middle;
     width: 30%;
 }
-.right-side{
+
+.right-side {
     vertical-align: middle;
-    text-align:right;
+    text-align: right;
     width: 65%;
     margin-left: 61PX;
 }
-.btn2 > i {
+
+.btn2>i {
     background-color: #fff;
     color: #ed1c24;
     padding: 8px;
     border-radius: 100%;
 }
-.slide{
+
+.slide {
     width: 100%;
     height: 650px;
 }
-.slide > img{
+
+.slide>img {
     width: 100%;
     height: 100%;
 }
-.intro{
+
+.intro {
     width: 100%;
     height: 500px;
     background-color: #000;
 
-    
+
 }
-.intro >.content> h2{
+
+.intro>.content>h2 {
     margin: 0px;
     color: #fff;
 }
-.intro > .content > p{
+
+.intro>.content>p {
     color: rgba(255, 255, 255, 0.7)
 }
-.content{
+
+.content {
     text-align: center;
-    padding-top:90px ;
+    padding-top: 90px;
 }
-.content > h2{
+
+.content>h2 {
     font-size: 40px;
     letter-spacing: 4px;
 }
-.content > h2 > span{
-    font-family: "Futurak";   
+
+.content>h2>span {
+    font-family: "Futurak";
 }
-.cards-logo{
+
+.cards-logo {
     width: 280px;
     height: 145px;
     background-color: #fff;
     padding: 0px 15px;
-   
+
 }
-.cards-logo > img {
+
+.cards-logo>img {
     width: 250px;
     height: 140px;
     padding: 0 19px;
 }
-.card-btn{
+
+.card-btn {
     width: 174px;
     height: 50px;
     padding: 18px 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 50px;
-    margin: 24px 40px 0px 40px ;
+    margin: 24px 40px 0px 40px;
     text-align: center;
-    
+
 }
-.card-btn > button{
+
+.card-btn>button {
     border: none;
-    background-color: transparent;   
+    background-color: transparent;
     color: #fff;
 }
-.complete-card{
+
+.complete-card {
     display: inline-block;
     margin: 0 5px;
 }
-.cards{
-    width:90%;
+
+.cards {
+    width: 90%;
     margin: 40px auto;
     text-align: center;
 }
-.franchise{
+
+.franchise {
     width: 100%;
-    height: 600px;
+    height: 990px;
     background-color: rgb(15 15 15);
 }
-.franchise-container{
+
+.content {
+    text-align: center;
+    padding-top: 90px;
     color: #fff;
 }
-.one{
+
+.c .one {
     font-family: "Futurak";
 }
+
+.address1-container{
+    width: 90%;
+    margin: 80px auto;
+}
+.address {
+    padding: 30px 110px ;
+    width: 55%;
+    display: inline-block;
+    
+}
+
+.address-detail {
+    width: 70%;
+    color: #fff;
+    padding: 10px 0;
+    padding-left: 40px;
+    text-align: justify;
+}
+
+.address-detail>h2 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.address-detail>h2>span {
+    font-family: "Futurak";
+}
+
+.address-detail>p:first-child {
+    color: #ed1c24;
+    font-size: 16px;
+    letter-spacing: 0.48em;
+    font-family: 'apercu';
+    line-height: 20px;
+}
+
+.address-btn {
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 15px;
+    margin-top: 40px;
+    margin-left: 32px;
+    text-align: center;
+}
+.address-btn > button{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+.address-image{
+    width: 30%px;    
+    display: inline-block;
+}
+
