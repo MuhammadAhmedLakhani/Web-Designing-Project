@@ -168,7 +168,7 @@ body {
 
 .franchise {
     width: 100%;
-    height: 990px;
+    
     background-color: rgb(15 15 15);
 }
 
@@ -184,7 +184,11 @@ body {
 
 .address1-container{
     width: 90%;
-    margin: 80px auto;
+    margin: 50px auto;
+}
+.address2-container{
+    width: 90%;
+    margin: 0px 0px 80px 200px;
 }
 .address {
     padding: 30px 110px ;
@@ -237,7 +241,18 @@ body {
     color: #fff;
 }
 .address-image{
-    width: 30%px;    
+    width: 40%;    
+    height: 300px;
     display: inline-block;
 }
 
+.address2-container > .address {
+    padding:  40px;
+    width: 40%;
+    height: 500px;
+}
+.address2-container > .address-image{
+    
+    position: relative;
+    top: 30px;
+}
