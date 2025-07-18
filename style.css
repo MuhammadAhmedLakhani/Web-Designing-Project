@@ -2,6 +2,10 @@
     font-family: "Futurak";
     src: url(fonts/futurak.ttf);
 }
+@font-face {
+    font-family: "butler";
+    src: url(fonts/Butler_Light.otf);
+}
 
 * {
     box-sizing: border-box;
@@ -230,7 +234,7 @@ body {
     font-family: 'Poppins';
     font-size: 14px;
     line-height: 21px;
-    padding-top: 15px;
+    padding: 10px 2px;
     margin-top: 40px;
     margin-left: 32px;
     text-align: center;
@@ -262,4 +266,56 @@ body {
     padding: 8px;
     border-radius: 100%;
 
+}
+.express-franchise{
+    width: 100%;
+    height: 15  00px;
+    background-color: #000 ;
+    padding: 50px;
+}
+.franchise-container{
+    width: 1660px;
+    height: 100%;
+    background-color: rgb(15 15 15);
+    /*   */
+}
+.franchise-container > .content > h2{
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.franchise-container > .content{
+    padding-top: 10px;
+    
+}
+.butler-font{
+    font-family: "butler";
+    font-size: 58px !important;
+}
+
+.address-image4{
+    width: 420px;
+    height:250px;
+    background-color: #ed1c24;
+    text-align: center;
+}
+.address-image4 > img{
+    width: 100%;
+}
+.address-detail4{
+    margin-top: 20px;
+    color: #fff;
+    font-family: inter;
+    letter-spacing: -0.25px;
+    line-height: 1cm;
+}
+.two{
+    color: #ed1c24;
+}
+.address-detail4 > h2> span{
+    font-family: "Futurak";
+}
+.address-container{
+    margin: 10px 40px;
+    display: inline-block;
 }
