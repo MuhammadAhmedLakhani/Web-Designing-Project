@@ -311,6 +311,7 @@ body {
 }
 .two{
     color: #ed1c24;
+    text-transform: uppercase;
 }
 .address-detail4 > h2> span{
     font-family: "Futurak";
