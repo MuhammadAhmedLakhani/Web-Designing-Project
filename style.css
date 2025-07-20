@@ -24,10 +24,10 @@ body {
 
 .header {
     box-sizing: border-box;
-    width: 100%;
+    width: 100vw;
     height: 93px;
     background-color: #000;
-    padding: 10px 130px;
+    padding: 10px 40px 10px 63px;
 }
 
 .menu>ul>li {
@@ -42,7 +42,7 @@ body {
 }
 
 .btns button {
-    padding: 14px 18.5px;
+    padding: 14px 16.5px;
     border-radius: 35px;
 
 }
@@ -51,13 +51,16 @@ body {
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
+    width: 135px;
 }
 
 .btn2 {
     background-color: #ed1c24;
     color: #fff;
     border: 1px solid #fff;
-    padding: 8px 13px !important;
+    padding: 12px 14px !important;
+    margin-left: 10px;
+    width: 145px;
 }
 
 .btns {
@@ -70,14 +73,14 @@ body {
 
 .logo {
     vertical-align: middle;
-    width: 30%;
+    width: 27%;
 }
 
 .right-side {
     vertical-align: middle;
     text-align: right;
-    width: 65%;
-    margin-left: 61PX;
+    width: 55%;
+    margin-left: 170px;
 }
 
 .btn2>i {
@@ -166,7 +169,7 @@ body {
 }
 
 .cards {
-    width: 90%;
+    width: 95%;
     margin: 40px auto;
     text-align: center;
 }
@@ -188,21 +191,21 @@ body {
 
 .address1-container{
     width: 90%;
-    margin: 50px auto;
+    /* margin: 50px auto; */
 }
 .address2-container{
     width: 90%;
     margin: 0px 0px 40px 200px;
 }
 .address {
-    padding: 30px 110px ;
+    padding: 30px 40px 30px 70px ;
     width: 55%;
     display: inline-block;
     
 }
 
 .address-detail {
-    width: 70%;
+    width: 100%;
     color: #fff;
     padding: 10px 0;
     padding-left: 40px;
@@ -255,7 +258,7 @@ body {
     width: 40%;
     height: 400px;
 }
-.address2-container > .address-image{
+.address2-container > .address-image,.address3-container > .address-image,.address1-container > .address-image{
     
     position: relative;
     top: 30px;
@@ -274,7 +277,7 @@ body {
     padding: 50px;
 }
 .franchise-container{
-    width: 1660px;
+    width: 100%;
     height: 100%;
     background-color: rgb(15 15 15);
     /*   */
@@ -282,10 +285,11 @@ body {
 .franchise-container > .content > h2{
     font-size: 48px;
     line-height: 60px;
+    margin: 0px;
 }
 
 .franchise-container > .content{
-    padding-top: 10px;
+    padding-top: 65px;
     
 }
 .butler-font{
@@ -294,7 +298,7 @@ body {
 }
 
 .address-image4{
-    width: 420px;
+    width: 325px;
     height:250px;
     background-color: #ed1c24;
     text-align: center;
@@ -317,6 +321,7 @@ body {
     font-family: "Futurak";
 }
 .address-container{
-    margin: 10px 40px;
+    width: 355px;
+    margin: 10px 15px;
     display: inline-block;
 }
