@@ -14,7 +14,7 @@
 body {
     margin: 0;
     padding: 0;
-
+    overflow-x: hidden;
 
 }
 
@@ -289,7 +289,7 @@ body {
 }
 
 .franchise-container > .content{
-    padding-top: 65px;
+    padding: 65px 0px;
     
 }
 .butler-font{
@@ -316,6 +316,7 @@ body {
 .two{
     color: #ed1c24;
     text-transform: uppercase;
+    letter-spacing: 2.75px
 }
 .address-detail4 > h2> span{
     font-family: "Futurak";
@@ -324,4 +325,33 @@ body {
     width: 355px;
     margin: 10px 15px;
     display: inline-block;
+    text-align: center;
+}
+.addresses{
+    text-align: center;
+}
+.address-container > .address-btn{
+    width: 350px;
+    margin:10px auto;
+    border: none;
+    
+}
+.address-container > .address-btn > button{
+    width: 174px; 
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 2px;
+}
+.address-container >.address-btn > button > i{
+    background-color: #fff;
+    color: #ed1c24;
+    padding: 8px;
+    border-radius: 100%;
+}
+.three{
+    color: rgba(240, 248, 255, 0.855);
 }
