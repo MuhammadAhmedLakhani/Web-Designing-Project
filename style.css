@@ -2,6 +2,7 @@
     font-family: "Futurak";
     src: url(fonts/futurak.ttf);
 }
+
 @font-face {
     font-family: "butler";
     src: url(fonts/Butler_Light.otf);
@@ -91,7 +92,7 @@ body {
 }
 
 .slide {
-    width: 100%;
+    width: 105%;
     height: 650px;
 }
 
@@ -101,7 +102,7 @@ body {
 }
 
 .intro {
-    width: 100%;
+    width: 105%;
     height: 500px;
     background-color: #000;
 
@@ -175,12 +176,12 @@ body {
 }
 
 .restaurant-franchise {
-    width: 100%;
-    padding-bottom:40px ;
+    width: 105%;
+    padding-bottom: 40px;
     background-color: rgb(15 15 15);
 }
 
-.restaurant-franchise > .content > h2 {
+.restaurant-franchise>.content>h2 {
     color: #fff;
     font-size: 48px;
 }
@@ -189,19 +190,21 @@ body {
     font-family: "Futurak";
 }
 
-.address1-container{
+.address1-container {
     width: 90%;
     /* margin: 50px auto; */
 }
-.address2-container{
+
+.address2-container {
     width: 90%;
     margin: 0px 0px 40px 0px;
 }
+
 .address {
-    padding: 30px 40px 30px 70px ;
+    padding: 30px 40px 30px 70px;
     width: 55%;
     display: inline-block;
-    
+
 }
 
 .address-detail {
@@ -242,108 +245,127 @@ body {
     margin-left: 32px;
     text-align: center;
 }
-.address-btn > button{
+
+.address-btn>button {
     border: none;
     background-color: transparent;
     color: #fff;
 }
-.address-image{
-    width: 40%;    
+
+.address-image {
+    width: 40%;
     height: 300px;
     display: inline-block;
-    
+
 }
 
-.address2-container > .address {
-    padding:  40px;
+.address2-container>.address {
+    padding: 40px;
     width: 40%;
     height: 400px;
     margin-left: 50px;
 }
-.address3-container > .address{
+
+.address3-container>.address {
     width: 40%;
 }
-.address2-container > .address-image,.address3-container > .address-image,.address1-container > .address-image{
-    
+
+.address2-container>.address-image,
+.address3-container>.address-image,
+.address1-container>.address-image {
+
     position: relative;
     top: 30px;
 }
-.address > .address-btn > button > i{
+
+.address>.address-btn>button>i {
     background-color: #fff;
     color: #ed1c24;
     padding: 8px;
     border-radius: 100%;
 
 }
-.express-franchise{
-    width: 100%;
-    
-    background-color: #000 ;
+
+.express-franchise {
+    width: 105%;
+
+    background-color: #000;
     padding: 50px;
 }
-.franchise-container{
+
+.franchise-container {
     width: 100%;
     height: 100%;
     padding-bottom: 50px;
     background-color: rgb(15 15 15);
     /*   */
 }
-.franchise-container > .content > h2{
+
+.franchise-container>.content>h2 {
     font-size: 48px;
     line-height: 60px;
     margin: 0px;
 }
 
-.franchise-container > .content{
+.franchise-container>.content {
     padding: 65px 0px;
-    
+
 }
-.butler-font{
+
+.butler-font {
     font-family: "butler";
 }
 
-.address-image4{
+.address-image4 {
     width: 325px;
-    height:250px;
+    height: 250px;
     background-color: #ed1c24;
     text-align: center;
 }
-.address-image4 > img{
+
+.address-image4>img {
     width: 100%;
     height: 100%;
 }
-.address-detail4{
+
+.address-detail4 {
     margin-top: 20px;
     color: #fff;
     font-family: inter;
     letter-spacing: -0.25px;
     line-height: 1cm;
 }
-.two{
+
+.two {
     color: #ed1c24;
     text-transform: uppercase;
     letter-spacing: 2.75px
 }
-.address-detail4 > h2> span{
+
+.address-detail4>h2>span {
     font-family: "Futurak";
 }
-.address-container{
+
+.address-container {
     width: 355px;
     margin: 10px 15px;
     display: inline-block;
     text-align: center;
 }
-.addresses{
+
+.addresses {
     text-align: center;
 }
-.address-container > .address-btn{
+
+.address-container>.address-btn {
     width: 350px;
-    margin:10px auto;
+    margin: 10px auto;
     border: none;
-    
+
 }
-.address-container > .address-btn > button{
-    width: 174px; 
+
+.address-container>.address-btn>button {
+    width: 174px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 50px;
@@ -352,60 +374,119 @@ body {
     line-height: 21px;
     padding: 10px 2px;
 }
-.address-container >.address-btn > button > i{
+
+.address-container>.address-btn>button>i {
     background-color: #fff;
     color: #ed1c24;
     padding: 8px;
     border-radius: 100%;
 }
-.three{
+
+.three {
     color: rgba(240, 248, 255, 0.855);
 }
-.village-franchise{
-    width:100%;
-    
-   background-color: rgb(15 15 15);
+
+.village-franchise {
+    width: 100%;
+
+    background-color: rgb(15 15 15);
 }
-.village-franchise > .content > h2 {
+
+.village-franchise>.content>h2 {
     margin: 0px;
     font-size: 52px;
 }
-.village-franchise > .content > h2>span{
+
+.village-franchise>.content>h2>span {
     font-size: 48px;
 }
-.village-franchise > .address2-container > .address > .address-btn {
+
+.village-franchise>.address2-container>.address>.address-btn {
     background-color: #28a745;
 }
-.village-franchise > .address2-container > .address-image {
+
+.village-franchise>.address2-container>.address-image {
     width: 55%;
 }
-.village-franchise > .address2-container > .address-image > img {
+
+.village-franchise>.address2-container>.address-image>img {
     width: 100%;
 }
-.village-franchise > .address2-container > .address  {
+
+.village-franchise>.address2-container>.address {
     margin: 0;
     padding: 0;
 }
-.village-franchise > .address2-container {
+
+.village-franchise>.address2-container {
     margin: 0px;
 }
-.opening-franchise{
+
+.opening-franchise {
     width: 100%;
-    height: 900px;
+    height: 1100px;
     background-color: #000;
 }
-.opening-franchise > .content > h2{
+
+.opening-franchise>.content>h2 {
     margin: 0px;
     font-size: 48px;
 }
-.opening-franchise > .content > h2>span{
+
+.opening-franchise>.content>h2>span {
     font-size: 48px;
 }
-.opening-franchise > .content {
+
+.opening-franchise>.content {
     padding: 0px;
 }
-.opening-franchise > .content > h2>small{
-    font-size: 25px ;
+
+.opening-franchise>.content>h2>small {
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
+}
+
+.opening-addresses {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.opening-card {
+    width: 30%;
+    height: 250px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    display: inline-block;
+}
+
+.opening-image {
+    margin-bottom: 16px;
+}
+
+.opening-data>p {
+    color: #ed1c24;
+    text-transform: uppercase;
+    letter-spacing: 2.75px;
+    font-size: 10px;
+    font-family: 'apercu';
+    line-height: 12px;
+    margin-bottom: 8px;
+}
+.opening-data > h4 > span{
+    margin: 0px;
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opening- > h4{
+    margin: 0px;
+    font-family: 'butler';
+}
+.opening-card:nth-child(2) {
+    margin: 0px 20px;
 }
