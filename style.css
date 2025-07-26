@@ -515,8 +515,6 @@ body {
 .footer-container {
     width: 1140px;
     height: 480px;
-
-    background-color: #000;
     margin: 0px auto;
 }
 
@@ -606,6 +604,7 @@ body {
 .footer-contact {
     width: 280px;
     height: 425px;
+    margin-left: 38px;
 }
 .footer-contact :nth-child(1){
     margin-bottom: 24px;
@@ -631,4 +630,26 @@ body {
     width: 185px;
     height: 425px;
     vertical-align: top;
+    margin-left: 8px;
+}
+.social-links {
+    width: 196;
+    height: 40px;
+    margin-bottom: 24px;
+}
+.social-links > a { 
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #ed1c24;
+    margin-right: 8px;
+    border-radius: 50px;
+    color: #fff;
+}
+.store > img{
+    width: 196;
+    height: 40px;
+    margin-bottom: 24px;
 }
